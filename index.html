@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SImple Game Ai</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="shortcut icon" href="https://i.ibb.co/Rg1Cq6G/My-Logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple AI Game</title>
+  <link rel="shortcut icon" href="https://i.ibb.co/Rg1Cq6G/My-Logo.png" type="image/x-icon"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="main.css" />
 </head>
-
 <body>
-    <p class="bigText">
-        Simple Ai Game
-    </p>
+  <div class="container">
+    <h1 class="title">Simple AI Game</h1>
+
     <div id="game-container">
-        <div id="result"></div>
-        <div id="choices-container">
-            <button class="choice-button" onclick="userChoice('rock')"><i class="fas fa-hand-rock"></i> Rock</button>
-            <button class="choice-button" onclick="userChoice('paper')"><i class="fas fa-hand-paper"></i> Paper</button>
-            <button class="choice-button" onclick="userChoice('scissors')"><i class="fas fa-hand-scissors"></i>
-                Scissors</button>
-        </div>
-
+      <div id="result">Choose an option below!</div>
+      <div id="choices-container">
+        <button class="choice-button" onclick="userChoice('rock')"><i class="fas fa-hand-rock"></i> Rock</button>
+        <button class="choice-button" onclick="userChoice('paper')"><i class="fas fa-hand-paper"></i> Paper</button>
+        <button class="choice-button" onclick="userChoice('scissors')"><i class="fas fa-hand-scissors"></i> Scissors</button>
+      </div>
     </div>
 
-    <div class="footer">
-        <p>Made With ❤️ By <a href="https://your4portfolio.vercel.app">YourS4nty</a></p>
-    </div>
-    <script src="main.js"></script>
+    <footer class="footer">
+      <p>Made with ❤️ by <a href="https://your4portfolio.vercel.app" target="_blank">YourS4nty</a></p>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
 </body>
-
 </html>
